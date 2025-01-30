@@ -5,9 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    character;
+    char ch;
     printf("Enter a character: ");
-    scanf("%c",&character);
-    printf("You entered: %c,character")
+    scanf("%c",&ch);
+    
+    printf("You entered: %c\n",character);
+
     return 0;
 }
