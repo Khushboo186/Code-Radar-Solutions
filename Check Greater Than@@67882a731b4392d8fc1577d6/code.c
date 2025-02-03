@@ -11,7 +11,5 @@ int main() {
         else{
             printf("%d is not greater than %d\n", num1,num2);
             }
-            
-    
-    return 0;
+            return 0;
 }
