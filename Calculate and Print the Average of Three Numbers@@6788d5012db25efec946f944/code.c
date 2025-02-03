@@ -3,9 +3,9 @@
 
 
 int main() {
-    float sum1,sum2,sum3,Average;
-    scanf("%f,%f,%f",&sum1,&sum2,&sum3);
-    Average = sum1 + sum2 + sum3/3;
-    printf(Average:"%.2f\n + %.2f\n + %.2f\n",sum1+sum2+sum3);
+    int num1,num2,num3,Average;
+    scanf("%d,%d,%d",&num1,&num2,&num3);
+    Average = (num1 + num2 + num3)/3.0;
+    printf(Average:"%.2f\n",Average);
     return 0;
 }
