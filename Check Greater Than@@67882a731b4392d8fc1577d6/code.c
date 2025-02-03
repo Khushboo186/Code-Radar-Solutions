@@ -6,10 +6,10 @@ int main() {
     int num1,num2;
     scanf("%d %d",&num1,&num2);
     if(num1>num2){
-        printf("True");
+        printf("%d is greater than %d\n",num1,num2);
     }
-    elseif("num1>num2"){
-        printf("False");
+    else{
+        printf("%d is not greater than %d\n",num1,num2);
     }
     
     return 0;
