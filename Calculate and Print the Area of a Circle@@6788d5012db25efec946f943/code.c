@@ -2,9 +2,10 @@
 
 int main() {
     float r;
-    const float pi = 3.14;
+
 
     scanf("%f", &r);
+    const float pi = 3.14;
     printf("Area: %.2f\n", pi * r * r );
 
     return 0;
