@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
-    scanf("%d %d", &a, &b);
-    printf("Enter you number: ");
-    if(a<=b){
+    int num1,num2;
+    scanf("%d %d", &num1, &num2);
+    // printf("Enter you number: ");
+    if(num1<=num2){
         printf("True");
     }
     else {
