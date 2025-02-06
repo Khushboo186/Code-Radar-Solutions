@@ -6,9 +6,6 @@ int main() {
     if(num1>0 && num2<0){
         printf("True");
     }
-    elseif(num1||num2==0){
-        printf("True");
-    }
     else{
         printf("False");
     }
