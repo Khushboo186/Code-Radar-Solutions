@@ -6,6 +6,6 @@ int main() {
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
     result = num1 & num2;
-    printf()
+    printf("The result of %d & %d is %d\n", num1, num2, result);
     return 0;
 }
