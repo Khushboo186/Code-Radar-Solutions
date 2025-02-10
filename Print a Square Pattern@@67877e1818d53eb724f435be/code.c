@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &N);
     for (i = 0; i < N; i++) {
         for (j = 0; j < N; j++) {
-            printf("*");
+            printf("Enter the side length of the square: ");
         }
         printf("\n");
     }
