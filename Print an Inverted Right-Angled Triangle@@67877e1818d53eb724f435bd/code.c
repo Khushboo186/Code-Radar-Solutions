@@ -2,8 +2,9 @@
 
 
 int main() {
-    str = [100];
-    scanf("%s",, &str);
-    printf("Enter a str: %s\n",&str);
+    int rows, i, j;
+    printf("Enter the number of rows: ");
+    scanf("%s", &rows);
+    
     return 0;
 }
