@@ -5,6 +5,7 @@ int main() {
     scanf("%d %d", &num1, &num2);
     printf("Enter a number: ");
     result = num1 | num2;
+    printf("The result of %d | %d is %d\n", num1, num2, result);
     
     return 0;
 }
