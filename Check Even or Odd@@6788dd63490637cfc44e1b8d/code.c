@@ -5,7 +5,10 @@ int main (){
     if(num1 % 2 == 0){
         printf("Even");
     }
+    elseif (num2 % 2 !==0); {
+        printf("Odd");
+        }
     else {
-        ("Odd");
+            ("Invalid number");
         }
 }
