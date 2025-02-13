@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main (){
-    int;
+    int num;
     printf("Enter your integer: ");
-    scanf("%d", &int);
-    if(int % 2 == 0){
+    scanf("%d", &num);
+    if(num % 2 == 0){
         printf("Even");
     }
     else {
