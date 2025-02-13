@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main (){
+int main () {
     int num;
     printf("Enter your integer\n: ");
     scanf("%d", &num);
     if(num % 2 == 0){
-        printf("Even");
+        printf("Even\n");
+    } else {
+        printf("Odd\n");
     }
-    else {
-        printf("Odd");
-        }
+        return 0;
 }
