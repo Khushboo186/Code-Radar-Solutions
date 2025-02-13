@@ -3,8 +3,8 @@ int main () {
     int num;
     scanf("%d", &num);
     if(num % 5 && num % 11){
-        printf("Divisible");
+        printf("Divisible\n");
     }else {
-        printf("Not Divisible");
+        printf("Not Divisible\n");
     }
 }
