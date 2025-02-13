@@ -5,10 +5,8 @@ int main () {
     if (num1 < num2){
         printf("num2");
     } 
-    elseif (num1 > num2) {
+    else {
         printf("num1");
     }
-    else {
-        printf("Invalid number");
-    }
+    return 0;
 }
