@@ -1,10 +1,13 @@
 #include <stdio.h>
 int main() {
-    int num1,num2;
-    scanf("%d %d", &num1, &num2);
-    if (num1 == 100 && num2 == 150) {
-        printf("Profit");
-    } else {
-            printf("No Profit No LOss");
-        }
+    int cost_price, selling_price;
+    printf("Enter cost price and selling price: ");
+    scanf("%d %d", &cost_price, &selling_price);
+    if (selling_price > cost_price) {
+        printf("Profit\n");
+    } else if (selling_price < cost_price) {
+        printf("Loss\n");
+    }else {
+         printf("No Profit No Loss");
+    }
     }
