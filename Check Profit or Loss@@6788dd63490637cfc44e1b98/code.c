@@ -6,5 +6,8 @@ int main() {
         printf("Profit");
     } elseif(num1 == 200 && num2 == 150) {
         printf("Loss");
+        else {
+            printf("No Profit No LOss");
+        }
     }
 }
