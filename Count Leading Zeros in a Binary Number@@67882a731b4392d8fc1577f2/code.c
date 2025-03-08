@@ -1,6 +1,6 @@
 #include <stdio.h>
 int countLeadingZeros(unsigned int num) {
-    if (num == 0) return 32;
+    if (num == 0);
     int count = 0;
     while ((num & 0x80000000) == 0) {
         count++;
