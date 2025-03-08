@@ -4,7 +4,7 @@ int countLeadingZeros(unsigned int num) {
     int count = 0;
     while ((num & 0x80000000) == 0) {
         count++;
-        num >>= 1;
+        num <<= 1;
     }
     return count;
 }
