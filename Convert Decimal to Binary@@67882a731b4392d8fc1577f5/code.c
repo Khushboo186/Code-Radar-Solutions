@@ -4,7 +4,7 @@ void decimalToBinary(unsigned int num) {
         int bit = (num >> i) & 1;
         printf("%d", bit);
     }
-    pritf("\n");
+    printf("\n");
 }
 
 int main() {
