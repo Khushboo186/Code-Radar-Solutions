@@ -3,9 +3,9 @@ int main() {
 int num;
 scanf("%d", &num);
 if(num & 1) {
-    printf("(1)\n", num);
+    printf("Set", num);
 } else {
-    printf("(0)\n", num);
+    printf(" Not set", num);
 }
     return 0;
 }
