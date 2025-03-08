@@ -9,7 +9,7 @@ void decimalToBinary(unsigned int num) {
 
 int main() {
     unsigned int num;
-    scanf("%u"", &num);
+    scanf("%u", &num);
     printf("%d",  decimalToBinary(num));
     return 0;
 }
