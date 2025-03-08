@@ -2,7 +2,7 @@
 int main ()
 {
 int num;
-shifted_num = num << 2 ;
+(shifted_num = num << 2) ;
 
 
 prinft("Original number:", num);
