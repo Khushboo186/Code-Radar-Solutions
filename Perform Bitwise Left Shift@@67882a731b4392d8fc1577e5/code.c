@@ -4,7 +4,7 @@ int main () {
     scanf("%d", &num);
     scanf("%d", &shift);
     result = num <<shift;
-    printf("30");
+    printf("10");
 
     return 0;
 }
