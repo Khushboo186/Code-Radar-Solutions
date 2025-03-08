@@ -6,6 +6,6 @@ int main () {
     // printf("Enter the number of positions to left shift:");
     scanf("%d", &shift);
     result = num <<shift;
-    printf(" %d\n" , num, shift, result);
+    printf("%d\n",  result);
     return 0;
 }
