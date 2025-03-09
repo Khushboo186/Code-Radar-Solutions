@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int n;
+    int n, A, B, C, D, F;
     scanf("%d", &n);
     if(n >= 90){
         printf('A');
