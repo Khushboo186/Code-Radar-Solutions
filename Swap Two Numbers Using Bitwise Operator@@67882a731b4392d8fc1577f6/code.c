@@ -5,7 +5,7 @@ void swap(int *a, int *b) {
     *a = *a ^ *b;
 }
 int main() {
-    int a,b;
+    int a = 5, b = 3;
     printf( "%d\n", a, b);
 
     swap(&a, &b);
