@@ -11,7 +11,7 @@ int main() {
     printf("Enter the bit position to set (0 - based): ");
     scanf("%d", &n);
 
-    setNthBit(&num, n);
+    setNthbit(&num, n);
     printf("The number after setting the %dth bit to 1 is: %d\n", n, num);
 
     return 0;
