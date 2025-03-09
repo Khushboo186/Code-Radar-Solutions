@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &n);
 
     setNthbit(&num, n);
-    printf(" %d\n",  num);
+    printf(" %d\n", n,  num);
 
     return 0;
 }
