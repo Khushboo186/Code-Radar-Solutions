@@ -5,7 +5,10 @@ int main() {
     if(num1 >= num2) {
         printf("Yes");
     }
-    else if (num1 < num2) {
+    // else if (num1 < num2) {
+    //     printf("No");
+    // }
+    else{
         printf("No");
     }
 }
