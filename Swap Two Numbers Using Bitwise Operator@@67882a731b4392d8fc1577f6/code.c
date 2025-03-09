@@ -10,6 +10,6 @@ int main() {
 
     swap(&a, &b);
 
-    printf(" %d, %d\n", a, b);
+    printf(" %d %d\n", a, b);
     return 0;
 }
