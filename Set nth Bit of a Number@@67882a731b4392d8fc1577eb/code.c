@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &n);
 
     setNthbit(&num, n);
-    printf("%d\n", n, num);
+    printf("The number after setting the %dth bit to 1 is: %d\n", n, num);
 
     return 0;
 }
