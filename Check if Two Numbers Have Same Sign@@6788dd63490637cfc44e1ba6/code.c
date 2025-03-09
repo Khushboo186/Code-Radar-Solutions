@@ -9,6 +9,6 @@ int main() {
         printf("Same Sign");
     }
     else{
-        printf("wrong input");
+        printf("Different Sign");
     }
 }
