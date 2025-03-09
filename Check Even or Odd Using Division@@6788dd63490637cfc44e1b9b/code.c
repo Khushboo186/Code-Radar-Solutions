@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main() {
-    int n, a;
-    scanf("%d ", &n, &a);
-    if(a %2==0) {
+    int  a;
+    scanf("%d ",  &a);
+    if((a / 2) * 2 == num) {
         printf("Even");
     }
     else {
