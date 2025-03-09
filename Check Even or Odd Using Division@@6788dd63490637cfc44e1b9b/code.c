@@ -2,7 +2,7 @@
 int main() {
     int  a, num;
     scanf("%d ",  &a, &num);
-    if((a / 2) * 2 == num) {
+    if((a / 2) * 2 == a) {
         printf("Even");
     }
     else {
