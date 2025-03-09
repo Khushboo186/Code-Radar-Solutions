@@ -8,9 +8,9 @@ int main() {
     int num1, num2;
     scanf("%d %d", &num1, &num2);
     if (isSquare(num1, num2)) {
-        printf("%d\n");
+        printf("Yes");
     }
     else {
-        printf("%d\n");
+        printf("No");
     }
 }
