@@ -5,8 +5,10 @@ void swap(int *a, int *b) {
     *a = *a ^ *b;
 }
 int main() {
-    int a = 5, b = 3;
-    // printf( " %d, %d\n", a, b);
+    int a, b;
+    scanf("%d %d", &a, &b);
+    
+    printf( " %d, %d\n", a, b);
 
     swap(&a, &b);
 
