@@ -5,11 +5,11 @@ void swap(int *a, int *b) {
     *a = *a ^ *b;
 }
 int main() {
-    int x,y;
-    printf( "%d\n", x, y);
+    int a,b;
+    printf( "%d\n", a, b);
 
-    swap(&x, &y);
+    swap(&a, &b);
 
-    printf(" %d\n", x, y);
+    printf(" %d\n", a, b);
     return 0;
 }
