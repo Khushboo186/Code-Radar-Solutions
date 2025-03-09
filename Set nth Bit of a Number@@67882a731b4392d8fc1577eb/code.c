@@ -5,8 +5,8 @@ void setNthbit(int *num, int n) {
 int main() {
     int num, n;
 
-    scanf("%d", &num);
-    scanf("%d", &n);
+    scanf("%d %d", &num, &n);
+    
 
     setNthbit(&num, n);
     printf(" %d\n",   num);
