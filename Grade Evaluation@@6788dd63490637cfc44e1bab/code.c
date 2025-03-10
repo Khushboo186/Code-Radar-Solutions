@@ -15,9 +15,6 @@ int main() {
     else if(grade == 'D') {
         printf("Below");
     }
-    else if(grade == 'E'){
-        printf("Average");
-    }
     else if(grade == 'F'){
         printf("Fail");
     }
