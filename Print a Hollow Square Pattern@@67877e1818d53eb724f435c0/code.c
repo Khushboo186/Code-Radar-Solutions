@@ -10,11 +10,13 @@ int main() {
             printf(" ");
         }
         printf("\n");
+        printfHollowsquare(N);
+        return 0;
     }
     
         
-        printfHollowsquare(N);
-        return 0;
+        // printfHollowsquare(N);
+        // return 0;
     }
     
 }
