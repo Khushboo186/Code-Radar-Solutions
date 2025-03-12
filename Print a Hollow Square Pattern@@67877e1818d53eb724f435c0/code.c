@@ -10,8 +10,7 @@ void printHollowSquare(int N){
         }
         printf("\n");
         printHollowSquare(N);
-        return 0;
-    }
+       
     }
     
 }
