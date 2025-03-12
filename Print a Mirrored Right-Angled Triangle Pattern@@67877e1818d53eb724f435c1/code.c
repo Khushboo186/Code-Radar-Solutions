@@ -12,7 +12,7 @@ void printMirrorRightAngledTriangle(int  N) {
 }
 int main() {
     int N;
-    SCANF("%D", &N);
+    scanf("%d", &N);
     printMirrorRightAngledTriangle(N);
     return 0;
 
