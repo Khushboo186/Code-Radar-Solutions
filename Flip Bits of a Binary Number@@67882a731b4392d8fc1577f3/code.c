@@ -7,6 +7,6 @@ int main() {
     scanf("%u", &num);
     unsigned int flippedNum = flipBits(num);
     printf("%u\n", flippedNum);
-    // printf("%u\n", flippedNum);
+    // printf("%u\n", flipBits);
     return 0;
 }
