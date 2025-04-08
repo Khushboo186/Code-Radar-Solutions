@@ -2,7 +2,7 @@
 int main() {
     double num1, num2, result;
     char op;
-    // printf("Enter an expression:");
+    printf("Enter an expression: result");
     scanf("%lf %c %lf", &num1, &op, &num2);
     switch (op) {
         case '+':
