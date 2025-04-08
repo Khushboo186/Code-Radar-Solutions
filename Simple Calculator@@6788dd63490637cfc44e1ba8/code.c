@@ -13,12 +13,12 @@ int main() {
         result = num1 - num2;
         printf("result: %.2lf\n", result);
         break;
-        case'*';
+        case'*':
         result = num1 * num2;
         printf("result: %.2lf\n", result);
         break;
-        case'\';
-        result = num1/num2;
+        case'\':
+        result = num1 / num2;
         printf("result: %.2lf\n", result);
         break;
     } else {
