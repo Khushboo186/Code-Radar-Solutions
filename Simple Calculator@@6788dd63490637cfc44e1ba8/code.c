@@ -17,16 +17,18 @@ int main() {
         result = num1 * num2;
         printf("result: %.2lf\n", result);
         break;
-        case'\':
-        result = num1 / num2;
-        printf("result: %.2lf\n", result);
-        break;
-    } else {
+        case'/':
+        if(num2 != 0){
+            result = num1 / num2;
+            printf("result: %.2lf\n", result);
+        } else {
         printf("Error: Division by zero\n");
     }
     break;
+
     default:
     printf("Error: Invalid operator\n");
+    }
 
     return 0;
 }
